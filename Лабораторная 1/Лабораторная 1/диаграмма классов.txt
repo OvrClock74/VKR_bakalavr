@@ -1,0 +1,12 @@
+@startuml
+skinparam class {
+	BackgroundColor White
+	ArrowColor Black
+	BorderColor Black
+}
+class "Менеджер по продажам" as P {
+ Телефонный звонок
+Продать (Товар, подлежащий скорой утилизации, Приказ начальства): Прибыль
+}
+hide circle
+@enduml
