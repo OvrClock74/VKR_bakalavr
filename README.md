@@ -16,7 +16,7 @@
 ![none](https://github.com/OvrClock74/ZhurkinPA.github.io/blob/master/%D0%9B%D0%B0%D0%B1%D0%BE%D1%80%D0%B0%D1%82%D0%BE%D1%80%D0%BD%D0%B0%D1%8F%202/1.PNG)
 Средний уровень:
 ![none](https://github.com/OvrClock74/ZhurkinPA.github.io/blob/master/%D0%9B%D0%B0%D0%B1%D0%BE%D1%80%D0%B0%D1%82%D0%BE%D1%80%D0%BD%D0%B0%D1%8F%202/2.PNG)
-## DFD-диаграмма (блок:Управлять)
+## DFD-диаграмма (блок:Оформление товара и выдача)
 ![none](https://github.com/OvrClock74/ZhurkinPA.github.io/blob/master/%D0%9B%D0%B0%D0%B1%D0%BE%D1%80%D0%B0%D1%82%D0%BE%D1%80%D0%BD%D0%B0%D1%8F%202/3.PNG)
 ## Usecase diagram
 ![none](https://github.com/OvrClock74/ZhurkinPA.github.io/blob/master/%D0%9B%D0%B0%D0%B1%D0%BE%D1%80%D0%B0%D1%82%D0%BE%D1%80%D0%BD%D0%B0%D1%8F%202/UsecaseDiagram.PNG)
