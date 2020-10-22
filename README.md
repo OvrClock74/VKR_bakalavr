@@ -22,7 +22,10 @@
 ![none](https://github.com/OvrClock74/ZhurkinPA.github.io/blob/master/%D0%9B%D0%B0%D0%B1%D0%BE%D1%80%D0%B0%D1%82%D0%BE%D1%80%D0%BD%D0%B0%D1%8F%202/UsecaseDiagram.PNG)
 # Лабораторная 3
 ## Диаграмма ERD
-![none](https://github.com/OvrClock74/ZhurkinPA.github.io/blob/master/%D0%9B%D0%B0%D0%B1%D0%BE%D1%80%D0%B0%D1%82%D0%BE%D1%80%D0%BD%D0%B0%D1%8F%203/erd.PNG)
+<p align="center">
+  ![none](https://github.com/OvrClock74/ZhurkinPA.github.io/blob/master/%D0%9B%D0%B0%D0%B1%D0%BE%D1%80%D0%B0%D1%82%D0%BE%D1%80%D0%BD%D0%B0%D1%8F%203/erd.PNG)
+</p>
+
 ## Диаграмма последовательности
 ![none](https://github.com/OvrClock74/ZhurkinPA.github.io/blob/master/%D0%9B%D0%B0%D0%B1%D0%BE%D1%80%D0%B0%D1%82%D0%BE%D1%80%D0%BD%D0%B0%D1%8F%203/uml.PNG)
 # Лабораторная 4
