@@ -1,0 +1,19 @@
+@startuml
+actor "Покупатель" as actor
+boundary "Кассир" as kass
+control "Сканер штрихкода" as scan
+control "ПК (касса)" as pc
+entity "Сервер" as server
+database "БД: Товары" as db
+
+actor -> kass: Товар
+actor -> pc: Денежные средства
+pc-> actor: Чек с купленным товаром
+kass -> scan: Штрихкод товара
+pc -> kass: Информация об успешном проведении оплаты
+scan -> server: Код товара
+scan -> pc: Обработка (преобразование) штрихкода
+server -> db: Изменение количества оставшегося товара
+server -> pc: "Оплачено"
+db -> server: Сообщение об успешном изменении строк
+@enduml
