@@ -23,7 +23,7 @@
 # Лабораторная 3
 ## Диаграмма ERD
 <p align="center">
-  ![none](https://github.com/OvrClock74/ZhurkinPA.github.io/blob/master/%D0%9B%D0%B0%D0%B1%D0%BE%D1%80%D0%B0%D1%82%D0%BE%D1%80%D0%BD%D0%B0%D1%8F%203/erd.PNG)
+  <img src="https://github.com/OvrClock74/ZhurkinPA.github.io/blob/master/%D0%9B%D0%B0%D0%B1%D0%BE%D1%80%D0%B0%D1%82%D0%BE%D1%80%D0%BD%D0%B0%D1%8F%203/erd.PNG" width="200">
 </p>
 
 ## Диаграмма последовательности
