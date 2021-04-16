@@ -1,0 +1,55 @@
+@startuml
+skinparam class {
+	BackgroundColor White
+	ArrowColor Black
+	BorderColor Black
+}
+hide circle
+hide methods
+
+class Users {
+   id_u : bigserial
+   login : string
+   pass : string
+   access : number
+   fio : string
+}
+class Tasks {
+   id_t : bigserial
+   name_t : string
+   autor : number
+   date_create: date
+   date_complete: date
+   date_duration: date
+   stage: number
+   payment: bool
+   cost_t: number
+   proshu_obesp: string
+   predm_zak: string
+   purpose_zak: string
+   tel_number: string
+   list_zak: string
+   link_zak: string
+   link_kon: string
+   registry_num: string
+   sum_t: number
+   ispolnitel: number
+}
+class Tasks_archive {
+   id_t : bigserial
+   name_t : string
+   autor : number
+   date_create: date
+   date_complete: date
+   date_duration: date
+   date_archiving: date
+   tel_number: string
+   link_kon: string
+   registry_num: string
+   sum_t: number
+   ispolnitel: number
+}
+
+Users --* Tasks
+Users --* Tasks_archive
+@enduml
