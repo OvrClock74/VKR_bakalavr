@@ -1,0 +1,24 @@
+@startuml
+"ПО" as software
+"Сотрудник" as employee
+
+"Обработать заполненную информацию" as (Use1)
+"Предоставление среды для работы" as (Use2)
+"Сформировать данные" as (Use3)
+"Составление документа" as (Use4)
+"Заполнить форму документа" as (Use5)
+"Информация о составленном документе" as (Use6)
+"Файл документа" as (Use7)
+
+software --> (Use1)
+(Use2) <- software
+software --> (Use3)
+employee --> (Use5)
+(Use5) --> (Use4)
+(Use5) --> (Use1)
+(Use2) --> employee
+(Use1) --> (Use3)
+(Use3) --> (Use4)
+(Use4) ..> (Use6)
+(Use4) ..> (Use7)
+@enduml
