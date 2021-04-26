@@ -1,0 +1,15 @@
+@startuml
+node "Database Server" {
+  DB - [DB Management System]
+}
+
+node "Information System" {
+  System- [Data Processing]
+  [System] --> DB
+}
+
+node "PС" {
+  User - [Application]
+  [User] --> System
+}
+@enduml
